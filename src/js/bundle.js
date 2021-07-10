@@ -26314,7 +26314,6 @@ const fetchArticleBody = (url) => new Promise((resolve) => {
   if (aylienKey) {
     $.ajax(settings)
       .done((response) => {
-        console.log(response);
         resolve(response);
       });
   } else {
